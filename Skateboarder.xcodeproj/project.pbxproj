@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB562BDB27610F9300FD8B88 /* SchoolhouseSkateboarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolhouseSkateboarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB562BDB27610F9300FD8B88 /* Skateboarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skateboarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB562BDE27610F9300FD8B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB562BE027610F9300FD8B88 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		AB562BE227610F9300FD8B88 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		AB562BD227610F9300FD8B88 = {
 			isa = PBXGroup;
 			children = (
-				AB562BDD27610F9300FD8B88 /* SchoolhouseSkateboarder */,
+				AB562BDD27610F9300FD8B88 /* Skateboarder */,
 				AB562BDC27610F9300FD8B88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,12 +51,12 @@
 		AB562BDC27610F9300FD8B88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB562BDB27610F9300FD8B88 /* SchoolhouseSkateboarder.app */,
+				AB562BDB27610F9300FD8B88 /* Skateboarder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB562BDD27610F9300FD8B88 /* SchoolhouseSkateboarder */ = {
+		AB562BDD27610F9300FD8B88 /* Skateboarder */ = {
 			isa = PBXGroup;
 			children = (
 				AB562BDE27610F9300FD8B88 /* AppDelegate.swift */,
@@ -68,15 +68,15 @@
 				AB562BEB27610F9600FD8B88 /* Assets.xcassets */,
 				AB562BED27610F9600FD8B88 /* LaunchScreen.storyboard */,
 			);
-			path = SchoolhouseSkateboarder;
+			path = Skateboarder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB562BDA27610F9300FD8B88 /* SchoolhouseSkateboarder */ = {
+		AB562BDA27610F9300FD8B88 /* Skateboarder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB562BF227610F9600FD8B88 /* Build configuration list for PBXNativeTarget "SchoolhouseSkateboarder" */;
+			buildConfigurationList = AB562BF227610F9600FD8B88 /* Build configuration list for PBXNativeTarget "Skateboarder" */;
 			buildPhases = (
 				AB562BD727610F9300FD8B88 /* Sources */,
 				AB562BD827610F9300FD8B88 /* Frameworks */,
@@ -86,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = SchoolhouseSkateboarder;
+			name = Skateboarder;
 			productName = SchoolhouseSkateboarder;
-			productReference = AB562BDB27610F9300FD8B88 /* SchoolhouseSkateboarder.app */;
+			productReference = AB562BDB27610F9300FD8B88 /* Skateboarder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB562BD627610F9300FD8B88 /* Build configuration list for PBXProject "SchoolhouseSkateboarder" */;
+			buildConfigurationList = AB562BD627610F9300FD8B88 /* Build configuration list for PBXProject "Skateboarder" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB562BDA27610F9300FD8B88 /* SchoolhouseSkateboarder */,
+				AB562BDA27610F9300FD8B88 /* Skateboarder */,
 			);
 		};
 /* End PBXProject section */
@@ -301,6 +301,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,10 +310,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rs.newhome.SchoolhouseSkateboarder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Skateboarder;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -329,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,17 +339,17 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rs.newhome.SchoolhouseSkateboarder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Skateboarder;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB562BD627610F9300FD8B88 /* Build configuration list for PBXProject "SchoolhouseSkateboarder" */ = {
+		AB562BD627610F9300FD8B88 /* Build configuration list for PBXProject "Skateboarder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB562BF027610F9600FD8B88 /* Debug */,
@@ -356,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB562BF227610F9600FD8B88 /* Build configuration list for PBXNativeTarget "SchoolhouseSkateboarder" */ = {
+		AB562BF227610F9600FD8B88 /* Build configuration list for PBXNativeTarget "Skateboarder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB562BF327610F9600FD8B88 /* Debug */,
